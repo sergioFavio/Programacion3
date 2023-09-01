@@ -9,6 +9,11 @@ def jugar():
   acerto = False
   
   while(not ahorcado and not acerto):
+    entrada = input('Ingrese una letra ...')
+    for letra in palabra_secreta:
+        if(entrada==letra):
+            print(entrada)
+
     print('jugando ...')
 
 
