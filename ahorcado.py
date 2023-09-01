@@ -10,6 +10,8 @@ def jugar():
   
   while(not ahorcado and not acerto):
     entrada = input('Ingrese una letra ...')
+    entrada = entrada.strip()                 # elimina espacio en blanco a la izquierda y derecha
+    entrada = entrada.lower()                 # convierte a letras minúsculas
     indice = 0
     for letra in palabra_secreta:
         if(entrada==letra):
