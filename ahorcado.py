@@ -3,6 +3,10 @@ def jugar():
   print('Bienvenido al Juego del Ahorcado')
   print('================================')
 
+  import random
+
+
+
   palabra_secreta ='mandarina'
   letras_acertadas =['_' for elemento in palabra_secreta]
   
