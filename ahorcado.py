@@ -4,7 +4,7 @@ def jugar():
   print('================================')
 
   palabra_secreta ='mandarina'
-  letras_acertadas =['_','_','_','_','_','_','_','_','_']
+  letras_acertadas =['_' for elemento in palabra_secreta]
   
   ahorcado = False
   acerto = False
